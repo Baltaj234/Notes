@@ -35,3 +35,36 @@ With Grok Bot, every single bot you create on your account will share one machin
 2. Treat the approval classifier as a helper, not a wall
 3. Set usage limits from day one
 4. Read the agentic actions clause before you hand over control
+
+# 10 Grok Bot uses cases
+
+1. Personal Inbox Manager:
+Logs into email, summarizes what needs a reply, drafts responses.
+
+2. Subscription and Expense auditor:
+Reviews your account and email receipts, flags spending and runaway subscriptions.
+
+3. Meeting prep every morning:
+Checks your calendar and pulls relevant notes and context before meetings.
+
+4. Daily Financial Summary:
+Reads your portfolio or finance data, and delivers a summary.
+
+5. Content Idea Helper:
+Scans Social media, finds outlier content, analyzes transcripts/posts, and proposed new and fresh content ideas for your personal social media channels.
+
+6. Overnight Slack Triage:
+Summarizes what arrived while you were offline, seperates what is urgent from what can wait and flags what needs your reply.
+
+7. Real-Estate Screening:
+Scans listing, compares them to recent sales, and flags potentially underpriced properties.
+
+8. Lead Researcher:
+Researches a specific topic for you, providing you a summary of what it learned and why it is important.
+
+9. Bot Coordination:
+Several bots working together on a larger workflow, with handoffs between them. 
+
+10. Persistent overnight work without a powered-on laptop:
+The general idea is to leave a bot running persistently while you are not around, so it delivers the result (might need approval) to you by the next day.
+
