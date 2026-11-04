@@ -1,6 +1,8 @@
 
 # Cursor IDE
 
+![alt text](image-1.png)
+
 ## 1. What Is Cursor?
 - **Cursor** is an AI-powered code editor built specifically for AI-assisted software development.
 - Based on Visual Studio Code (VS Code), so it supports many existing VS Code extensions, themes, and keyboard shortcuts.
