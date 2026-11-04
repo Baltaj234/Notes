@@ -63,7 +63,7 @@ Official website: https://cursor.com/
 - Avoid repeating the same instructions in every conversation.
 
 Recommended structure:
-
+````
 text
 project/
 ├── .cursor/
@@ -74,7 +74,7 @@ project/
 ├── src/
 ├── tests/
 └── README.md
-
+````
 
 ### B. Use Context Effectively
 
