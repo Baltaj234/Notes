@@ -53,3 +53,16 @@ Multiplexing allows multiple types of data to be transmitted at the same time ac
 
 Each type of traffic is assigned a unique port number to ensure it reaches the correct application on the receiving device.
 
+# IP addresses and Port Numbers
+
+IP addresses are unique indentifiers assigned to each device on a network. Think of them like addresses for homes.
+
+Port numbers are used to direct data to the corret service or application on a device. Think of them like rooms in a house.
+
+Port numbers are ranged from 0 to 65,535 and divided into two categories.
+
+Non-ephemeral ports range from 0 to 1023 and are assigned to well known services.
+
+Ephemeral ports range from 1024 to 65,535 and are used by client devices for temporary communication sessions.
+
+Port numbers are not a security mechanism but serve as a reference for directing traffic to the correct application.
