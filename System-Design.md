@@ -160,3 +160,37 @@ These concepts provide a foundation for a structured approach to solving system 
 
 ## A framework for approaching system design problems
 
+When faced with an open-ended system design question, a structured approach is critical. Here is a framework engineers use to approach complex design challenges methodically.
+
+![alt text](image-3.png)
+
+This visual representation shows how each phase builds upon the previous one, creating a systematic approach to complex problems. Here is a breakdown of each step.
+
+Start by clarifying the functional requirements (what the system must do?) and non-functional requirements (how it must perform). This is the time to ask about scale. Asking clarifying questions shows you think critically, a necessary skill in interviews and real-world design sessions. Estimate QPS (queries per second) and storage requirements early to decide whether you need sharding or caching.
+
+You need to define the system boundaries. Do this by identifying your core components and what is out of scope. Draw simple boxes and arrows to represent data flow, services, and external dependencies like API's or third-party integrations. This helps keep discussions focused and visual. Define the API contracts early, specifying whether it will be a REST API or a WebSocket connection.
+
+Design the high-level architecture. Lay out the building blocks. Who your clients are, the type of load balancing you will be using, your application servers or microservices, database/storage layers, cache, message queues and search systems if applicable.
+
+This top-down approach ensures clarity before addressing implementation details. It establishes the "happy path" for data flow.
+
+Model data and choose storage. Decide how data will be stored, indexed, and retrieved. Consider whether the data is relational or document-based. Determine if you need global replication or if eventual consistency is acceptable. A thoughtful schema design early on can prevent years of technical debt.
+
+Plan for scalability and reliability. Introduce caching, database sharding, replication or partitioning. Use load balancers and content delivery networks to reduce latency. Think through failures scenarios and graceful degradation to determine what happens if a node or data center goes down. The system should fail partially rather than compltely.
+
+Address trade-offs. Every decision in System Design involves a trade-off. Be explicit about these. Explaining why you chose a design is as important as the actual design itself.
+
+Add final touches for security, observability, and maintainability. These include authentication, authorization, encryption, and secure data storage. Add monitoring and alerting pipelines. Emphasizing maintainability with API versioning, automated deployments, and documentation. Discuss backward compatability to ensure new updates do not break old clients.
+
+Following this structure helps you design better systems and communicate your thought process clearly, which is what interviewers and engineering leads look for.
+
+## Conclusion
+
+System Design is a way of thinking about software where engineering meets strategy. Its architecture decisions affect performance, cost, and user experience. Mastering it means learning to see systems not as lines of code, but as living, evolving ecosystems.
+
+Whether you are a developer aiming to succeed in interviews or an engineer architecting production systems, your journey begins with curiosity and practice. Start small. Redesign everyday tools, such as URL shorteners, messaging apps, or file-sharing platforms, and ask yourself how they scale, recover, and evolve.
+
+The best engineers understand trade-offs and communicate decisions clearly. Use the resources linked above, study real architectures, and most importantly, keep designing.
+
+With consistent effort, System Design can transform from a difficult interview topic into your strongest professional skill. It provides a lens through which you can build, debug, and improve any system you touch.
+
