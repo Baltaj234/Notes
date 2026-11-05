@@ -93,3 +93,12 @@ Designing how low latency often increases cost or complexity, while designing fo
 ### Load balancing, Caching, and Sharding
 
 These are the key scalability techniques that prevent bottlenecks.
+
+Load balancing distributes traffic evenly across servers to prevent overload.
+
+Caching stores frequently accessed data into memory to speed up responses.
+
+Sharding splits large datasets into smaller chunks (by user ID or region) for parallel access.
+
+Together, these techniques help applications perform well at a global scale. Caching strategies, such as write-through or look-aside, determine the trade-off between data freshness and response speed.
+
