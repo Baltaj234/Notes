@@ -102,3 +102,61 @@ Sharding splits large datasets into smaller chunks (by user ID or region) for pa
 
 Together, these techniques help applications perform well at a global scale. Caching strategies, such as write-through or look-aside, determine the trade-off between data freshness and response speed.
 
+### Database types and storage models
+
+Databases are a foundational component of any system design, and different types suit different needs.
+
+SQL (relational) databases, such as PostgreSQL, ensure strict consistency, and support structured queries.
+
+noSQL (non-relational) databases like DynamoDB or MongoDB favor flexibility and horizontal scalability.
+
+Key-value stores, document stores, graph databases all serve different use cases, from caching to relationship-heavy data.
+
+Choosing the right database depends on your workload, query patterns, and consistency requirements. For example, a banking ledger requires SQL for ACID compliance, while a social media feed might use noSQL for rapid scaling.
+
+### Communication Protocols
+
+Communications methods between services are as important as data storage methods.
+
+REST (representational state transfer) is the standard for public API's, using HTTP and JSON. It is simple and stateless, but can be verbose.
+
+gRPC is a high performance framework using Protobuf (binary serialization). It is faster and more compact than REST, making it ideal for internal microservice communication.
+
+GraphQL allows clients to request exactly what data they need, reducing over-fetching in complex front-end applications.
+
+### Microservices, events and messaging
+
+Modern systems often rely on asynchronous communication, and service isolation.
+
+Microservices break down monoliths into smaller, independently deployable services.
+
+Event-driven architectures utilize message queues to decouple producers and consumers thereby enabling resilience and scalability.
+
+Understanding when to introduce these patterns is a key skill in System Design. Asynchronous processing allows a system to absorb traffic spikes without overwhelming the database.
+
+### Security Fundamentals
+
+Security cannot be an afterthought and must be integrated into the design.
+
+Authentication and authorization are using standards like OAuth 2.0 and OpenID Connect (OIDC) to verify and identity and permissions.
+
+Encryption is about protecting data at rest (database encryption) and in transit (using TLS/SSL handshakes).
+
+You must assume no component is safe, requiring strict identity verification for every internal request.
+
+### Observability and Monitoring
+
+Effective systems provide feedback on their status. Logging, monitoring, and alerting help you detect issues before users do.
+
+Metrics like quantative data like CPU usage, memory and request counts.
+
+Logs are for detailed records of specific events.
+
+Distributed tracing is for tracking a request as it hops through multiple microservices to pinpoint latency bottlenecks.
+
+Metrics like latency percentiles, error rates, and resource utilization help you make informed decisions to tune and evolve the system.
+
+These concepts provide a foundation for a structured approach to solving system design problems.
+
+## A framework for approaching system design problems
+
