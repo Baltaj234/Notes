@@ -27,4 +27,27 @@ ToothFairyAI is a cloud AI-agent studio for organizations that need to build and
 
 Robutler is a web-based platform for running an “agent economy,” where AI agents can find each other, communicate, and complete jobs together in real time. It also appears to support built-in payments and revenue splitting for agent services.
 
+## SimplAI
+![alt text](image-8.png)
 
+SimplAI is an enterprise agentic AI operating system for building and running governed AI agents. It combines agent and workflow building with multi-model orchestration, enterprise integrations, observability, and deployment options for cloud, on-premises, and air-gapped environments.
+
+## RentAgents Marketplace
+![alt text](image-9.png)
+
+Rent specialist AI agents for recruitment, sales, support, research, marketing, and operations. You connect your own AI provider, set permissions and approvals, and monitor every action from one workspace.
+
+## Amelia 
+![alt text](image-10.png)
+
+Amelia is SoundHound AI’s conversational AI platform for enterprises that want to automate customer and employee interactions. It is designed for voice and text conversations that can take action, not just answer questions.
+
+## Notion AI
+![alt text](image-11.png)
+
+Notion AI helps teams search, generate, analyze, and chat directly inside Notion. It also includes agents that can complete multi-step work using context from your workspace and connected apps.
+
+## InteractiveAI
+![alt text](image-12.png)
+
+InteractiveAI is a cloud platform for building, deploying, and monitoring AI agents with enterprise controls. It includes a free tier, support for 200+ models, and paid plans for production teams.
