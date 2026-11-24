@@ -90,3 +90,78 @@ Thermal printer - Uses heat to create images on heat-sensitive paper (receipts) 
 NTFS vs FAT32 vs exFAT - NTFS is windows default with permissions, encryption and journaling. FAT32 is the max 4GB file size, broad compatability. exFAT has large files for flash/cross platform.
 
 eSATA - external SATA. A port for connecting external drives at internal SATA speeds.
+
+Cloud file synchronization - Services (OneDrive, iCloud, Google Drive) that keep files mirrored across devices and the cloud automatically. 
+
+Documentation: ticketing and KB - Track issues with clear, complete tickets. Document fixes in a knowledge base for reuse.
+
+Change Management - A documented process to request, assess, approve, schedule, implement and review changes. Reduces risk and outages.
+
+Change management components - Documented business reason, scope, risk analysis, rollback plan, end-user acceptance, change board approval, and a maintenance window.
+
+What is a hypervisor host's storage controller (HBA) - A host bus adapter connects a server to storage (SAS/Fibre Channel) without RAID logic, passing drives to the OS or software RAID.
+
+What is RAM - Random Access Memory. Fast, volatile system memory that holds running programs and data. Cleared when power is lost.
+
+Comptia troubleshooting step 2 - Establish a theory of probable cause. Question the obvious. Consider multiple approaches (top-to-bottom / divide-and-conquer).
+
+SODIMM - Small Outline DIMM. The compact RAM form factor used in laptops and small form factor PCs.
+
+PCIe - Peripheral Component Interconnect Express. The high speed expansion bus for GPU's, NVMe, SSDs, and add-in cards. Slots come in x1, x4, x8, x16 lane widths.
+
+Data at rest vs in transit - Encrypt stored data (Bitlocker/filevault) and data moving over networks (TLS/HTTPS, VPN).
+
+Dual displays on a laptop - Extend or mirror to external monitors via HDMI/DisplayPort/USB-C. Toggle modes with display key or Win + P.
+
+Social Engineering: Shoulder Surfing - Observing someone's screen/keypad to steal credentials and data.
+
+Cloud model PaaS - Platform as a Service - a managed environment to build and deploy apps without managing servers or the OS.
+
+Slow Performance - Check resource usage (Task Manager), startup apps, malware, disk space, overheating and pending updates.
+
+thermal paste - A heat conductive compound applied between the CPU and heatsink to fill microscopic gaps and improve heat transfer.
+
+Hard drive sanitization - Securely erase data before disposal/reuse. drive wipe (overwrite), secure erase, deguassing or physical destruction. 
+
+Certificate warning in browser - an invalid/expired/untrusted certificate. Verify the site, check the system clock and don't bypass for sensitive sites.
+
+ATX vs ITX form factors - ATX is the full size motherboard standard. MicroATX and mini-ITX are progressively smaller with fewer expansions slots for compact builds. 
+
+Clean install - Wipes the drive and installs a fresh OS. Best for major issues. Requires backing up data first.
+
+What is a switch - A layer-2 device that forwards frames between devices on the same LAN using MAC addresses. Each port is its own collision domain.
+
+Ports 110/143 - 110 is for POP3 (downloads mail), 143 is for IMAP (syncs mail across devices).
+
+Trusted vs untrusted software sources - Install sofware only from reputable vendors. Untrusted sources are a top malware vector.
+
+Duplexing assembly - The printer component that automatically prints on both sides of the page.
+
+printer: faded prints - For laser printers low toner or a failing transfer process. For inkjet printers low ink or clogged heads. Replace/clean as needed.
+
+Remote support tools - RDP, SSH, VNC, MSRA (quick assist) and third party tolls provide remote access. Secure them and get consent.
+
+Why educate the user last - User behaviour is the most common infection vector. Training prevents recurrence after the cleanup.
+
+Difference between SATA and NVMe storage - SATA SSDs use the AHCI/SATA bus (=600 MB/s max). NVMe SSDs run over PCIe lanes (M.2 or add-in), giving multi-GB/s speeds and much lower latency. 
+
+Cellular standards - Devices roam between LTE/4G and 5G. PRL/baseband updates keep the radio working with carrier networks.
+
+Hot-swappable - Hardware (RAID drives, USB devices) that can be added or removed while the system is running.
+
+Overheating symptoms - thermal shutdowns, throttling, loud fans, clean dust, reseat/replace heatsink, reapply thermal paste, check fan operation.
+
+Windows in-place upgrade - Installs a new windows version while keeping apps, settings, and files.
+
+Common PSU rails - +3.3V and +5V power logic and older peripherals. +12V power the CPU, GPU and drive motors and is the dominant rail in modern systems.
+
+Fiber: single mode vs multimode - single mode means small core, laser, very long distance. Multimode means larger core, LED/VCSEL, shorter distance, cheaper.
+
+macOS: Time Machine - Apple's built-in automatic backup to an external/network drive allowing point in time restores.
+
+CIA triad - The core security goals. Confidentiality (keep data private), Integrity (keep it accurate/unaltered) and Availability (keep it accessible).
+
+Hotspot/tethering - Sharing a phone's cellular data with other devices over Wi-fi (hotpost), USB, or bluetooth (tethering).
+
+
+
