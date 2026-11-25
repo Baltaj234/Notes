@@ -254,5 +254,17 @@ Order of the Comptia troubleshooting steps (6):
 Identify -> Theory -> Test -> plan & implement -> Verify -> Document. 
 Documentation is especially important and educating the user afterwards so the same problem does not easily occurr again. Document the incident so that if someone has a similar problem they can refer back to your documentation to solve it, therefore making it more efficient for you and them.
 
+64 bit machines and 32 bit machines have key important differences that should be remembered. 64 bit machines support more RAM, generally more than 4GB. 64 bit machines run 64 bit apps. 32 bit machines are limited to 4GB of RAM and legacy software.
 
+Active Directory Security groups grant permissions to groups, rather than individuals to manage access at scale.
+
+Add users to security groups based on their job roles, then grant those groups access to shared folders, printers, and other resources. When someone's role changes, update their group membership instead of changing permissions on every resource.
+
+Use role-based groups and the principle of least privilege: give each group only the access its members need, and remove access when it is no longer required.
+
+Nested groups let one group be a member of another, making it easier to manage access for teams and departments. Review nesting carefully so users do not receive unintended permissions.
+
+Security groups can be used to assign permissions. Distribution groups are for email distribution lists and are not used to grant access to resources.
+
+Active Directory group scopes include Global (organize users and groups from the same domain), Domain Local (assign permissions to resources in its domain), and Universal (organize membership across domains in a forest).
 
