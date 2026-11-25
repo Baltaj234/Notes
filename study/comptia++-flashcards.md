@@ -163,5 +163,41 @@ CIA triad - The core security goals. Confidentiality (keep data private), Integr
 
 Hotspot/tethering - Sharing a phone's cellular data with other devices over Wi-fi (hotpost), USB, or bluetooth (tethering).
 
+## General Notes
 
+SSD's are faster than HDD's. An HDD is cheaper per GB. an SSD used flash memory faster.
+
+Cloud uses are often billed by use. The consumption model makes it cost effective.
+
+Disk management is important. Its a GUI tool to initialize, partition, format and resize disks and change drive letters. Drive letters are labels Windows assigns to drives or partitions. 
+
+TCP and UDP protocols are important. TCP is connection-oriented and reliable. UDP is connectionless and fast with no guarantees. Typically UDP is used for streaming.
+
+Every company has an AUP. It stands for Acceptable Use Policy. How company employees can use company software or data. Strict rules and regulations.
+
+3 2 1 backup rule is important. Keep 3 copies of data, on 2 different media and 1 copy offsite. Protects against most problems and failures.
+
+Whenever an incident happens document what happened and how it was resolved, who handled it and when? Report incidents with proper documentation and through proper communication channels.
+
+Wireless Security has three main standards. WEP is broken and should never be used. WPA2 is acceptable. WPA 3 is the modern standard and strongest of them all.
+
+MAC is related to everything in hardware. MAC filtering is an important technique where a service can allow/deny devices depending in their hardware (MAC) address.
+
+Many common Linux commands should be studyed properly including file manipulation, finding files and information using only the terminal and common network commands.
+
+Network Address translation lets many private IPs use the same public IP. Primarily done to hide internal addresses. Devices using private IP's cannot be routed directly on the public internet.
+
+The Recovery partition is important. It is a hidden partition in Windows with a Windows recovery environment for repair, reset and startup repair.
+
+Startup repair fixes windows boot problems. It can repair corrupted boot files, the boot configuration, and startup components. Used when Windows fails to start or gets stuck at startup. 
+
+System restore uses an earlier restore point to restore system files, registry settings and installed updates/drivers. It does not normally affect personal files.
+
+Reset this PC reinstalls Windows. Two ways it can be done. Keep my files which removes apps and settings up preserves personal files. Remove everything wipes apps, settings, and personal files for a factory reset.
+
+IOT devices are devices that are segmented from the main devices. Many smart-home devices are good examples.
+
+Many different boot methods for an operating system. Some examples include booting from a USB, optical, network or internal device.
+
+If a mobile phone has battery drain and overheating it could be due to a variety of factors. Including rogue apps often dowloaded from 3rd party providers (not the official app store on that device), battery needing to get replaced or a poor signal meaning the device is constantly trying to find a connection.
 
