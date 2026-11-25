@@ -93,6 +93,16 @@ eSATA - external SATA. A port for connecting external drives at internal SATA sp
 
 Cloud file synchronization - Services (OneDrive, iCloud, Google Drive) that keep files mirrored across devices and the cloud automatically. 
 
+Cloud sync requirements - Sign in to the same account on each device and enable the sync service.
+
+Sync conflicts - Review duplicate or conflicting copies instead of overwriting the wrong version.
+
+Offline access - Changes made while offline are uploaded when the device reconnects.
+
+Cloud sync security - Use strong authentication, MFA, encryption, and approved devices.
+
+Selective sync - Download only needed folders to conserve storage, but remember that excluded folders may not be available offline.
+
 Documentation: ticketing and KB - Track issues with clear, complete tickets. Document fixes in a knowledge base for reuse.
 
 Change Management - A documented process to request, assess, approve, schedule, implement and review changes. Reduces risk and outages.
@@ -267,4 +277,20 @@ Nested groups let one group be a member of another, making it easier to manage a
 Security groups can be used to assign permissions. Distribution groups are for email distribution lists and are not used to grant access to resources.
 
 Active Directory group scopes include Global (organize users and groups from the same domain), Domain Local (assign permissions to resources in its domain), and Universal (organize membership across domains in a forest).
+
+Redundant power supplies are important in servers. It involves a second PSU in a server that powers on if the first one fails.
+
+Ping is an important command. Tests reachability and latency to a host using ICMP echo requests.
+
+An on path attack is where an attacker alters traffic between two parties.
+
+Brute force and dictionary are two very different types of password attacks. Bruteforce is slower and less reliable because is uses every single password available while dictionary tries likely passwords from a list.
+
+Virtual desktop infrastructure hosts user desktops as VMs in a data center or cloud which can be accessed remotely.
+
+Safe mode boots Windows with minimal drivers/services to troubleshoot driver and startup problems.
+
+A DNS record CNAME is an alias pointing one hostname to another hostname.
+
+
 
