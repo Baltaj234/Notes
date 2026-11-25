@@ -224,5 +224,35 @@ An Esim lets people switch phone carriers without a physical sim card. Embedded 
 
 Many optical drive types including CD, Blue-Ray and DVD. Reading and writing optical disks is rare in modern PCs.
 
+Integrated vs dedicated GPU is an important concept. An integrated GPU is part of the CPU and shares RAM with the rest of the computer. A dedicated GPU is seperate from teh CPU and has its own VRAM it uses. As a result dedicated GPUs have much higher performance.
+
+Worm is an self-replicating malware that spreads on its own without any user action.
+
+Multifactor authentication is becoming increasingly standard in the modern world. Requires two things to sign in to an account, a password and something you have (token/phone). More secure than just a single password.
+
+GPS services today communicate with satellites to determine a user's exact location outdoors and indoors.
+
+Event viewer should be the first tool to use to figure out what went wrong in a computer crashing. Shows logs of the system, security and application events.
+
+Phishing is common today and shows users fake email/messages to trick them into giving up important credentials. 
+
+Apt, yum and dnf are important package managers in Linux to install packages.
+
+A firewall filters network traffic by a set of rules. Windows Defender is the built-in firewall for Windows hosts.
+
+MDM is Mobile device management which enforces policies, encryption and remote wipe on company machines.
+
+A digitizer is a touch-sensing layer on a screen which converts touch/stylus input into coordinates. Very important.
+
+DHCP stands for Dynamic Host Configuration Protocol. It assigns IP addresses to clients. Uses port 67/68.
+
+Airplane mode disables all radios (WIfI, bluetooth, cellular data) at once. They can be re-enabled.
+
+Principal of least privilege is especially important. It states that you should only give users the minimum access to the system to complete their task, nothing more. Limits problems. 
+
+Order of the Comptia troubleshooting steps (6):
+Identify -> Theory -> Test -> plan & implement -> Verify -> Document. 
+Documentation is especially important and educating the user afterwards so the same problem does not easily occurr again. Document the incident so that if someone has a similar problem they can refer back to your documentation to solve it, therefore making it more efficient for you and them.
+
 
 
