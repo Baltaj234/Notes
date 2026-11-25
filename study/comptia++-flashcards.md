@@ -201,3 +201,28 @@ Many different boot methods for an operating system. Some examples include booti
 
 If a mobile phone has battery drain and overheating it could be due to a variety of factors. Including rogue apps often dowloaded from 3rd party providers (not the official app store on that device), battery needing to get replaced or a poor signal meaning the device is constantly trying to find a connection.
 
+POST beep codes are important patterns at computer startup which indicate which component of the computer failed.
+Happens before video output is available.
+
+Coaxial cable carries cable TV and cable internet signals using F-type connectors.
+
+SSH is an important protocol. Widely used for starting remote connections with other machines. The process takes place on port 22.
+
+Authentication and authorization are different things, remember this. Authentication proves who you are, while authorization determines what you are allowed to do.
+
+Trojan is a powerful piece of malware used in today's world. It masks itself as legitimate software. Opens a backdoor when run and infects your machine.
+
+Know the different Comptia troubleshooting steps in order
+
+Standard formatting and secure erase are very different concepts. A standard format leaves data recoverable, while a secure erase removes any and all data. When dealing with sensitive data that must be fully wiped, secure erase is the best method.
+
+HTTP is unencrypted web while HTTPS is  TLS encrypted web. Subtle difference.
+
+TLS (Transport Layer Security) is the protocol that encrypts and secures communications between a web browser and a server, forming the foundation of HTTPS.
+
+An Esim lets people switch phone carriers without a physical sim card. Embedded into the mobile device itself. Many modern phones have it now.
+
+Many optical drive types including CD, Blue-Ray and DVD. Reading and writing optical disks is rare in modern PCs.
+
+
+
