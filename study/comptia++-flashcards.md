@@ -292,5 +292,12 @@ Safe mode boots Windows with minimal drivers/services to troubleshoot driver and
 
 A DNS record CNAME is an alias pointing one hostname to another hostname.
 
+Isolating malware helps other parts of the system not get infected so during cleanup there are no additional problems being created.
+
+Full / incrimental / differential backup are important concepts when backing up a computer.
+
+A full backup backs everything up on the computer. A incrimental means everything is backed up since the last backup. Differential means everything is backed up since only the last FULL backup. The differential backup type is the slowest, while incrimental is the fastest.
+
+Cloud elasticity refers to being able to constantly scale up/ scale down resources depending on the demand. This is paired with a pay as you use model.
 
 
