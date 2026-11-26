@@ -1,4 +1,5 @@
 # WebStorm
+![alt text](image-3.png)
 
 ## Overview
 - WebStorm is a JetBrains IDE for JavaScript and TypeScript.
